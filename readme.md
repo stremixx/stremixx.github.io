@@ -1,1 +1,2 @@
-This is a text file lol
+Welcome to my Website
+hope you get a chuckle out of it :)

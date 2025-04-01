@@ -1,8 +1,127 @@
 body {
-    background-color: lightblue;
+    background-color: #008080;
+    font-family: win95;
     }
+
+    @font-face {
+    font-family: "win95" ;
+    src: url(./resources/VGAFont.ttf) format('truetype');   
+    }
+
+    /* Loading icon at top
+    need to add a box*/
+#loading {
+    width: 128px;
+    max-width: 128px;
+    margin-left: 1px;
+    margin-right: 1px;
+
     
-    h1 {
-    color: navy;
+    /*sets the position to the top left*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    background-color: rgb(163, 163, 163);
+
+}
+
+header {
+    color: rgb(255, 255, 255);
     margin-left: 20px;
+    font-weight: lighter;
     }
+
+/*Word art that welcomes*/
+h2 {
+    color: white;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+}
+
+
+
+
+
+button, input[type=reset], input[type=submit] {
+    cursor: pointer;
+    background: silver;
+    border: none;
+    border-radius: 0;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    box-sizing: border-box; 
+    color: transparent;
+    min-height: 23px;
+    min-width: 75px;
+    padding: 0 12px;
+    text-shadow: 0 0 #222;
+    align-items: center;
+  
+}
+
+#navtitle {
+    width:512px;
+    max-width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    
+    
+        border: 10px;
+    border-color: blue;
+}
+
+
+
+#helloww {
+    width:256px;
+    max-width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+
+    }
+
+
+#dinosaur {
+    cursor: pointer;
+    width: 128px;
+    max-width: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+footer {
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center
+
+}
+
+#netscape {
+    
+    width: auto;
+    max-width: 64px;
+    padding: 10px;
+    cursor: pointer;
+
+
+
+}
