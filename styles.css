@@ -1,5 +1,5 @@
 body {
-    background-color: #008080;
+    background-color: #c0c0c0;
     font-family: win95;
     }
 
@@ -10,77 +10,38 @@ body {
 
     /* Loading icon at top
     need to add a box*/
-#loading {
-    width: 128px;
-    max-width: 128px;
-    margin-left: 1px;
-    margin-right: 1px;
 
-    
-    /*sets the position to the top left*/
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-
-    background-color: rgb(163, 163, 163);
-
+/*Word Art*/
+.helloww {
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
 }
 
-header {
-    color: rgb(255, 255, 255);
-    margin-left: 20px;
-    font-weight: lighter;
-    }
-
-/*Word art that welcomes*/
-h2 {
+/*txt below the wordart*/
+h1.navText {
+    width: 512px;
+    display: flex;
+    border: 10px solid transparent; /* Assuming you want a visible border */
+    text-shadow: 1px 2px 2px black;
     color: white;
     font-weight: lighter;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
     padding: 10px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 
-
-
-
-button, input[type=reset], input[type=submit] {
-    cursor: pointer;
-    background: silver;
-    border: none;
-    border-radius: 0;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-    box-sizing: border-box; 
-    color: transparent;
-    min-height: 23px;
-    min-width: 75px;
-    padding: 0 12px;
-    text-shadow: 0 0 #222;
-    align-items: center;
-  
-}
-
-#navtitle {
-    width:512px;
-    max-width: 512px;
+.loading {
+    width: 100px;
     margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 10px;
-    
-    
-        border: 10px;
-    border-color: blue;
+    /*sets the position to the top left*/
+    position: flex;
+    background-color:(rgb(161, 161, 161));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5))
+
 }
 
-
-
-#helloww {
-    width:256px;
-    max-width: 256px;
+.helloww {
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -89,7 +50,7 @@ button, input[type=reset], input[type=submit] {
     }
 
 
-#dinosaur {
+.dinosaur {
     cursor: pointer;
     width: 128px;
     max-width: 128px;
@@ -97,31 +58,43 @@ button, input[type=reset], input[type=submit] {
     margin-right: auto;
     display: block;
     padding: 10px;
-    
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    background-color: rgb(161, 161, 161);
+    border-radius: 10%;
 }
 
-
-
-
-
+.dinolink {
+    visibility: hid;
+}
 
 footer {
     
     position: fixed;
     bottom: 0;
+    right: 0;
+    left: 0;
     width: 100%;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    background-color: rgb(161, 161, 161);
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    border-radius: 200px;
 
 }
 
-#netscape {
+.netscape {
     
     width: auto;
     max-width: 64px;
     padding: 10px;
     cursor: pointer;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5))
+}
 
-
+.netscapetxt {
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+    color:white;
 
 }

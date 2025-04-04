@@ -1,2 +1,2 @@
 Welcome to my Website
-hope you get a laugh out of it :)
+hope you get a chuckle out of it :)
