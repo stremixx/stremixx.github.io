@@ -1,11 +1,17 @@
 body {
     background-color: #c0c0c0;
     font-family: win95;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 
+}
+    
+    
     @font-face {
     font-family: "win95" ;
-    src: url(./resources/VGAFont.ttf) format('truetype');   
+    src: url(./resources/VGAFont.ttf) format('truetype');
     }
 
     /* Loading icon at top
@@ -64,12 +70,16 @@ h1.navText {
 }
 
 .dinolink {
-    visibility: hid;
+}
+
+.news {
+    color: white;
+    font-weight: normal;
+    text-shadow: 1px 2px 2px black;
 }
 
 footer {
     
-    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
