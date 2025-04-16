@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Applefont'; /* Define the font family name */
+    src: url('/resources/font/AppleGaramond-Light.ttf') format('truetype');
+}
+
+body {
+    font-family: AppleFont;
+    margin: 0; /* Remove default margin */
+    padding-top: 60px;  /* Add padding to the top to prevent content from being hidden behind the fixed nav bar */
+}
+
+.nav {
+    font-style: normal;    position: fixed; /* Position the nav bar at the top */
+    display: flex;
+    z-index: 1000;
+
+    top: 0; /* Align to the top of the page */
+    left: 0; /* Align to the left of the page */
+
+    width: 100%; /* Make the nav bar span the entire width of the screen */ 
+    justify-content: center; /* Center the buttons horizontally */
+
+    align-items: center; /* Center the buttons vertically */
+    background-color: #000000; /* Add a background color for the nav bar */
+
+    color: white;
+    padding: 15px; /* Add some padding */
+}
+
+.nav h3 {
+    margin: 0 10px; /* Add spacing between the headings */
+    padding: 5px 5px; /* Add padding to make them look like buttons */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center the text */
+    background-color: rgb(83, 83, 83);
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding to make them look like buttons */
+}
+
+
+.contentcomputer {
+    padding: 100px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: gray;
+    border-radius: 40px;
+
+    
+}
+
+.contentphone {
+    padding: 100px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: gray;
+    border-radius: 40px;
+}
+
+.contentphone,h1 {
+    color: white
+    
+}
+
+.contentwatch {
+    padding: 100px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: gray;
+    border-radius: 40px;
+}
+
+
+
+.computer  {
+    max-width: 40%;
+}
+
+.phone {
+   max-width: 40%;
+}
+
+.watch {
+    max-width: 25%;
+}
+
+
+footer {
+    display: flex;
+    position: relative; /* Allow the footer to be positioned naturally */
+    width: 100%; /* Make the footer span the entire width of the screen */
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
